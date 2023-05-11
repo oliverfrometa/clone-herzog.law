@@ -89,19 +89,28 @@ h1, h2, h3, h4, h5, h6, a, p {
     justify-content: space-between;
 }
 
-.card {
-    padding: 24px;
-    cursor: pointer;
-    color: var(--color-orange);
-}
-
 .landing-page-title {
     width: 50vw;
 }
 
 .landing-card {
+    display: flex;
+    justify-content: space-between;
     height: 50%;
+    width: 100%;
 }
+
+.card-topic-content {
+    width: 50%;
+}
+
+.card {
+    padding: 16px 24px;
+    cursor: pointer;
+    color: var(--color-orange);
+    display: flex;
+    gap: 20px;
+}   
 
 .card-1 {
     background-color: #FAFBFB;
